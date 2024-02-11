@@ -1,0 +1,27 @@
+section{
+    min-height: 80vh;
+    color: white;
+    background-color: #1ABC9C;
+    text-align: center;
+    padding-top: 70px;
+}
+
+section h1::before{
+    content: "";
+    background-color: white;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+   top: 120%;
+   left: 35%;
+}
+
+section h1::after{
+    content: "";
+    background-color: white;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+   top: 120%;
+   right: 35%;
+}

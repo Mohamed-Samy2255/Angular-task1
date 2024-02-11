@@ -1,0 +1,62 @@
+h1{
+    color: #29394A;
+}
+section{
+    min-height: 100vh;
+}
+
+section h1::before{
+    content: "";
+    background-color: #2C3E50;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+   top: 31%;
+   left: 36%;
+}
+
+section h1::after{
+    content: "";
+    background-color: #2C3E50;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+   top: 31%;
+   right: 36%;
+}
+
+.container .layer{
+    background-color: #2BB096;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition:  opacity 1s;
+}
+
+.container .layer i{
+    color: white;
+}
+
+.container .parent .layer:hover{
+    opacity: .8;
+}
+
+.parent .layer{
+    cursor: pointer;
+}
+
+.light-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #C2DBFE;
+    margin-top: 70px;
+}

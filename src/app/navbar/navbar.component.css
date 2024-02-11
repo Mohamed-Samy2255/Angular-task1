@@ -1,0 +1,16 @@
+nav{
+    background-color: #2C3E50 ;
+    padding: 30px;
+    z-index: 99;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .nav-link{
+    margin: 10px;
+ background-color: aqua !important;
+} */

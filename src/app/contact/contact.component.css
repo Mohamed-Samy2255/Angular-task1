@@ -1,0 +1,37 @@
+section h1 , i{
+    color: #2C3E50 ;
+}
+
+section h1::before{
+    content: "";
+    background-color: #2C3E50;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+   top: 31%;
+   left: 35%;
+}
+
+section h1::after{
+    content: "";
+    background-color: #2C3E50;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+   top: 31%;
+   right: 35%;
+}
+
+form{
+    left: 25%;
+    top: 0;
+}
+
+form input{
+    border: none;
+    border-bottom: 2px solid #DFE3E7;
+}
+
+form button{
+    background-color: #1ABC9C;
+}

@@ -1,0 +1,24 @@
+*{
+    list-style: none;
+}
+
+section{
+    background-color: #2C3E50;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.609);
+    border-radius: 50%;
+}
+
+li{
+    display: inline-block;
+}
+
+.footer-text{
+    padding-top: 20px;
+    height: 70px;
+    background-color: #162028;
+}
